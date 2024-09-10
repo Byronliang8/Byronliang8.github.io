@@ -60,70 +60,84 @@ const IndexPage = () => {
 
         {/* Text and content */}
         <div className="container flex flex-col">
-          <h1 className="text-3xl font-bold mb-4">Hi, I'm Author!</h1>
-
+          <h1 className="text-3xl font-bold mb-4">Yuanbang Liang</h1>
+          <h1 className="font-bold mb-4">PhD candidate in computer science @ Cardiff University</h1>
           <p className="mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-            mollit anim id est laborum.
+            I am a PhD candidate in Visual Computing research section, the School of Computer Science and Informatics,
+            Cardiff University. My thesis topic is <i>Uncovering the “Instincts” of Deep Generative Models for Fair and Unbiased
+            Visual Content Creation</i>, supervised by Dr. Yipeng Qin, Prof. Yu-Kun Lai and Dr. Jing Wu and this project
+            is <p style="color: red;">Fully funded by Engineering and Physical Sciences Research Council (EPSRC) DTP studentships</p>.
           </p>
           <p className="mb-4">
-            Aliquam ac erat suscipit ipsum feugiat sollicitudin quis ut risus. Suspendisse id ipsum at justo 
-            facilisis luctus. Suspendisse eleifend ullamcorper massa, nec malesuada tortor ornare eget. 
-            Curabitur tristique tincidunt odio, id tincidunt mauris semper in. 
+            My research interests are centred around machine learning and its applications in computer vision, computer graphics
+            and content generation. My current research revolves around the hubness phenomenon to uncover the relationship between
+            the hyper-dimensional distribution and the generative models. With my recent findings, there is a strong correlation
+            between the manifold of the model and the sampling distribution in hyper dimension.
           </p>
           <p className="mb-4">
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac 
-            habitasse platea dictumst. Donec eu turpis sapien. Suspendisse imperdiet urna a vehicula aliquet. 
-            Vestibulum vel elementum enim, in ultricies arcu. Interdum et malesuada fames ac ante ipsum primis in 
-            faucibus. Mauris ac cursus eros, varius fermentum massa.
+            Now I'm Expecting to graduate before 2025 and looking for the research jobs.
           </p>
 
           {/* Timeline */}
-          <section>
-            <div id="experience" className='-translate-y-16'/>
-            <h1 className='text-2xl py-4 font-medium'>Experience</h1>
-            <ExperienceEntry
-              date={'Jan\u00a02022 - Dec\u00a02022'}
-              title={'Job 3'}
-              company={'Company 3'}
-              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-              tags={['Skill 1', 'Skill 2', 'Skill 3']}
-            />
-            <ExperienceEntry
-              date={'Jan\u00a02021 - Dec\u00a02021'}
-              title={'Job 2'}
-              company={'Company 2'}
-              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-              tags={['Skill 1', 'Skill 2', 'Skill 3']}
-            />
-            <ExperienceEntry
-              date={'Jan\u00a02020 - Dec\u00a02020'}
-              title={'Job 1'}
-              company={'Company 1'}
-              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-              tags={['Skill 1', 'Skill 2', 'Skill 3']}
-            />
-          </section>
+          {/*<section>*/}
+          {/*  <div id="experience" className='-translate-y-16'/>*/}
+          {/*  <h1 className='text-2xl py-4 font-medium'>Experience</h1>*/}
+          {/*  <ExperienceEntry*/}
+          {/*    date={'Jan\u00a02022 - Dec\u00a02022'}*/}
+          {/*    title={'Job 3'}*/}
+          {/*    company={'Company 3'}*/}
+          {/*    description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}*/}
+          {/*    tags={['Skill 1', 'Skill 2', 'Skill 3']}*/}
+          {/*  />*/}
+          {/*  <ExperienceEntry*/}
+          {/*    date={'Jan\u00a02021 - Dec\u00a02021'}*/}
+          {/*    title={'Job 2'}*/}
+          {/*    company={'Company 2'}*/}
+          {/*    description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}*/}
+          {/*    tags={['Skill 1', 'Skill 2', 'Skill 3']}*/}
+          {/*  />*/}
+          {/*  <ExperienceEntry*/}
+          {/*    date={'Jan\u00a02020 - Dec\u00a02020'}*/}
+          {/*    title={'Job 1'}*/}
+          {/*    company={'Company 1'}*/}
+          {/*    description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}*/}
+          {/*    tags={['Skill 1', 'Skill 2', 'Skill 3']}*/}
+          {/*  />*/}
+          {/*</section>*/}
 
           <section>
             <div id="education" className='-translate-y-16'/>
             <h1 className='text-2xl py-4 font-medium'>Education</h1>
             <EducationEntry
-              date={'2021 - 2022'}
-              university={'University 2'}
-              degree={'Degree 2'}
-              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-              tags={['Subject 1', 'Subject 2', 'Subject 3']}
+              date={'2021 - till now'}
+              university={'Cardiff University'}
+              degree={'Doctor of Philosophy'}
+              description={'Thesis title: Uncovering the “Instincts” of Deep Generative Models for Fair and Unbiased\n' +
+                  'Visual Content Creation. Supervised by Yipeng Qin, Yu-Kun Lai and Jing Wu.'}
+              // tags={['Deep Learning', 'Generative Models', 'Hubness Phenomenon']}
             />
             <EducationEntry
               date={'2020 - 2021'}
-              university={'University 1'}
-              degree={'Degree 1'}
-              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-              tags={['Subject 1', 'Subject 2', 'Subject 3']}
+              university={'University of Bristol'}
+              degree={'Master of Science'}
+              description={'Engineering Mathematics. GPA:3.5/4.0'}
+              // tags={['', 'Subject 2', 'Subject 3']}
+            />
+
+            <EducationEntry
+              date={'2018 - 2020'}
+              university={'University of Liverpool'}
+              degree={'Bachelor of Science'}
+              description={'Computer Science. GPA:3.8/4.0'}
+              // tags={['', 'Subject 2', 'Subject 3']}
+            />
+
+            <EducationEntry
+              date={'2016 - 2018'}
+              university={"Xi'an Jiao-Tong Liverpool University (XJTLU)"}
+              degree={'Bachelor of Science'}
+              description={'Information and Computer Science. GPA:3.8/4.0'}
+              // tags={['', 'Subject 2', 'Subject 3']}
             />
           </section>
 
@@ -131,10 +145,12 @@ const IndexPage = () => {
             <div id="publications" className='-translate-y-16'/>
             <h1 className='text-2xl py-4 font-medium'>Publications</h1>
             <PublicationEntry
-              date={'2023'}
-              title={'Publication 2'}
-              authors={'Author 1, Author 2'}
-              journal={'Journal 2'}
+              date={'2024'}
+              title={'Deep generative model based rate-distortion for image\n' +
+                  'downscaling assessment (<b> Oral</b>, top 0.8%),'}
+              authors={'<b>Y. Liang</b>, H. Garg, P. L. Rosin, and Y. Qin'}
+              journal={'IEEE/CVF Conference on Computer Vision and Pattern\n' +
+                  'Recognition (CVPR)'}
               tags={['Keyword 1', 'Keyword 2', 'Keyword 3']}
             />
             <PublicationEntry
@@ -153,7 +169,7 @@ const IndexPage = () => {
               If you are interested in discussing, please feel free to reach out ! You can contact me at the following email adress: 
             </p>    
             <p>
-              contact [dot] me @ email [dot] com
+              contact Liangy32@cardiff.ac.uk
             </p>
           </section>
         </div>
