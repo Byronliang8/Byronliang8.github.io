@@ -14,25 +14,26 @@ const IndexPage = () => {
         <div className="flex flex-col lg:px-6 lg:sticky top-24 place-items-center space-y-6 lg:mb-24">
           {/* Photo */}
           <StaticImage
-            src="../images/self.png"
+            src="../images/self.jpg"
             alt="Me"
             className="rounded-full h-64 w-64 object-cover mt-4"
           />
           {/* Social links */}
           <div className='flex flex-row mx-auto place-items-center space-x-8 overflow-visible'>
-            <Link href="https://www.linkedin.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="LinkedIn">
+            <Link href="https://www.linkedin.com/in/byronliang16/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="LinkedIn">
               <icons.RiLinkedinBoxFill size={32}></icons.RiLinkedinBoxFill>
             </Link>
-            <Link href="https://github.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="Github">
-              <icons.RiGithubFill size={32}></icons.RiGithubFill>
-            </Link>
-            <Link href="https://www.twitter.com/" className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="Twitter">
-              <icons.RiTwitterFill size={32}></icons.RiTwitterFill>
-            </Link>
-            <Link href="https://scholar.google.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='Google Scholar'>
+            {/*<Link href="https://github.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="Github">*/}
+            {/*  <icons.RiGithubFill size={32}></icons.RiGithubFill>*/}
+            {/*</Link>*/}
+            {/*<Link href="https://www.twitter.com/" className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label="Twitter">*/}
+            {/*  <icons.RiTwitterFill size={32}></icons.RiTwitterFill>*/}
+            {/*</Link>*/}
+            <Link href="https://scholar.google.com/citations?user=RRjSWYkAAAAJ&hl=en" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='Google Scholar'>
               <i className="ai ai-google-scholar ai-size-32"></i>
             </Link>
-            <Link href="https://drive.google.com/" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='CV'>
+            <Link
+                href="../document/cv_2024_09.pdf" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='CV'>
               <i className="ai ai-cv ai-size-32"></i>
             </Link>
           </div>
