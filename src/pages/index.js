@@ -14,7 +14,7 @@ const IndexPage = () => {
         <div className="flex flex-col lg:px-6 lg:sticky top-24 place-items-center space-y-6 lg:mb-24">
           {/* Photo */}
           <StaticImage
-            src="../images/avatar.png"
+            src="../images/self.png"
             alt="Me"
             className="rounded-full h-64 w-64 object-cover mt-4"
           />
@@ -114,14 +114,14 @@ const IndexPage = () => {
               degree={'Doctor of Philosophy'}
               description={'Thesis title: Uncovering the “Instincts” of Deep Generative Models for Fair and Unbiased\n' +
                   'Visual Content Creation. Supervised by Yipeng Qin, Yu-Kun Lai and Jing Wu.'}
-              // tags={['Deep Learning', 'Generative Models', 'Hubness Phenomenon']}
+              tags={['Deep Learning', 'Generative Models', 'Hubness Phenomenon']}
             />
             <EducationEntry
               date={'2020 - 2021'}
               university={'University of Bristol'}
               degree={'Master of Science'}
               description={'Engineering Mathematics. GPA:3.5/4.0'}
-              // tags={['', 'Subject 2', 'Subject 3']}
+              tags={['Partial Differential Equations', 'Applied Statistics', 'Machine Learning and Mathematics']}
             />
 
             <EducationEntry
@@ -129,7 +129,7 @@ const IndexPage = () => {
               university={'University of Liverpool'}
               degree={'Bachelor of Science'}
               description={'Computer Science. GPA:3.8/4.0'}
-              // tags={['', 'Subject 2', 'Subject 3']}
+              tags={['Algorithm and Optimisation', 'Data Science', 'Intelligent Information Systems']}
             />
 
             <EducationEntry
@@ -137,7 +137,7 @@ const IndexPage = () => {
               university={"Xi'an Jiao-Tong Liverpool University (XJTLU)"}
               degree={'Bachelor of Science'}
               description={'Information and Computer Science. GPA:3.8/4.0'}
-              // tags={['', 'Subject 2', 'Subject 3']}
+              tags={['Algorithm and Data Structure', 'Discrete Mathematics and Probabilistic', 'Calculus']}
             />
           </section>
 
