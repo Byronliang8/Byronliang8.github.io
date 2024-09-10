@@ -66,7 +66,7 @@ const IndexPage = () => {
             I am a PhD candidate in Visual Computing research section, the School of Computer Science and Informatics,
             Cardiff University. My thesis topic is <i>Uncovering the “Instincts” of Deep Generative Models for Fair and Unbiased
             Visual Content Creation</i>, supervised by Dr. Yipeng Qin, Prof. Yu-Kun Lai and Dr. Jing Wu and this project
-            is <span className="red">Fully funded by Engineering and Physical Sciences Research Council (EPSRC) DTP studentships</span>.
+            is <span class="red">Fully funded by Engineering and Physical Sciences Research Council (EPSRC) DTP studentships</span>.
           </span>
           <p className="mb-4">
             My research interests are centred around machine learning and its applications in computer vision, computer graphics
