@@ -40,14 +40,14 @@ export const EducationEntry = ({ date, university, degree, description, tags }) 
   );
 };
 
-export const PublicationEntry = ({ date, title, authors, journal, description, tags }) => {
+export const PublicationEntry = ({ date, title, authors, journal, description, tags, A}) => {
   return (
     <div className="flex mx-auto">
       <div className="flex place-items-start justify-center text-sm p-4 pt-5 w-1/4">{date}</div>
       <div className="flex flex-col place-items-start p-4 w-3/4">
         <h2 className="text-xl font-medium">{title}</h2>
         <p>{authors}</p>
-        <p className='italic'>{journal}</p>
+        <p className='italic'>{journal}<b>{A}</b></p>
         <p className="mt-1">{description}</p>
         <div className="mt-2 flex flex-wrap gap-x-4">
           {tags.map((tag, index) => (
