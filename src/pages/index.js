@@ -79,31 +79,31 @@ const IndexPage = () => {
           </p>
 
           {/* Timeline */}
-          {/*<section>*/}
-          {/*  <div id="experience" className='-translate-y-16'/>*/}
-          {/*  <h1 className='text-2xl py-4 font-medium'>Experience</h1>*/}
-          {/*  <ExperienceEntry*/}
-          {/*    date={'Jan\u00a02022 - Dec\u00a02022'}*/}
-          {/*    title={'Job 3'}*/}
-          {/*    company={'Company 3'}*/}
-          {/*    description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}*/}
-          {/*    tags={['Skill 1', 'Skill 2', 'Skill 3']}*/}
-          {/*  />*/}
-          {/*  <ExperienceEntry*/}
-          {/*    date={'Jan\u00a02021 - Dec\u00a02021'}*/}
-          {/*    title={'Job 2'}*/}
-          {/*    company={'Company 2'}*/}
-          {/*    description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}*/}
-          {/*    tags={['Skill 1', 'Skill 2', 'Skill 3']}*/}
-          {/*  />*/}
-          {/*  <ExperienceEntry*/}
-          {/*    date={'Jan\u00a02020 - Dec\u00a02020'}*/}
-          {/*    title={'Job 1'}*/}
-          {/*    company={'Company 1'}*/}
-          {/*    description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}*/}
-          {/*    tags={['Skill 1', 'Skill 2', 'Skill 3']}*/}
-          {/*  />*/}
-          {/*</section>*/}
+          <section>
+            <div id="experience" className='-translate-y-16'/>
+            <h1 className='text-2xl py-4 font-medium'>Experience</h1>
+            <ExperienceEntry
+              date={'Jan\u00a02022 - Dec\u00a02022'}
+              title={'Job 3'}
+              company={'Company 3'}
+              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+              tags={['Skill 1', 'Skill 2', 'Skill 3']}
+            />
+            <ExperienceEntry
+              date={'Jan\u00a02021 - Dec\u00a02021'}
+              title={'Job 2'}
+              company={'Company 2'}
+              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+              tags={['Skill 1', 'Skill 2', 'Skill 3']}
+            />
+            <ExperienceEntry
+              date={'Jan\u00a02020 - Dec\u00a02020'}
+              title={'Job 1'}
+              company={'Company 1'}
+              description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+              tags={['Skill 1', 'Skill 2', 'Skill 3']}
+            />
+          </section>
 
           <section>
             <div id="education" className='-translate-y-16'/>
