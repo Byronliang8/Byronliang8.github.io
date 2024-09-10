@@ -14,7 +14,7 @@ const IndexPage = () => {
         <div className="flex flex-col lg:px-6 lg:sticky top-24 place-items-center space-y-6 lg:mb-24">
           {/* Photo */}
           <StaticImage
-            src="../images/self.png"
+            src="../images/self.jpg"
             alt="Me"
             className="rounded-full h-64 w-64 object-cover mt-4"
           />
