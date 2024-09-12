@@ -33,7 +33,7 @@ const IndexPage = () => {
               <i className="ai ai-google-scholar ai-size-32"></i>
             </Link>
             <Link
-                href="https://github.com/Byronliang8/Byronliang8.github.io/tree/master/src/document/cv_2024_09.pdf" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='CV'>
+                href="/CV.pdf" target='_blank' className='hover:scale-125 cursor-pointer transition ease-in-out duration-300' aria-label='CV'>
               <i className="ai ai-cv ai-size-32"></i>
             </Link>
           </div>
@@ -176,7 +176,6 @@ const IndexPage = () => {
                   'Recognition (CVPR)'}
                     tags={['PDF','Youtube', 'Github']}
               links={['https://openaccess.thecvf.com/content/CVPR2024/html/Liang_Deep_Generative_Model_based_Rate-Distortion_for_Image_Downscaling_Assessment_CVPR_2024_paper.html','https://youtu.be/94xMwRkL7ZI','https://github.com/Byronliang8/IDA-RD']}
-
             />
        <PublicationEntry
               date={'2024'}

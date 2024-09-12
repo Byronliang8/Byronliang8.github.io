@@ -13,13 +13,22 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-smoothscroll`,
-    {
-      resolve: "gatsby-source-filesystem",
+    // {
+    //   resolve: "gatsby-source-filesystem",
+    //   options: {
+    //     name: `blog`,
+    //     path: `${__dirname}/blog`,
+    //   }
+    //
+    // },
+      {
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog`,
-        path: `${__dirname}/blog`,
-      }
+        name: `publications`,
+        path: `${__dirname}/Publication`,
+      },
     },
+    `gatsby-transformer-remark`,
     "gatsby-plugin-mdx",
   ]
 };

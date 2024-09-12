@@ -68,10 +68,15 @@ const Layout = ({ pageTitle, children }) => {
                 <ul className="flex flex-row justify-end items-center list-none space-x-4 font-bold">
                   <li><Link to="/" className='hover:underline'>About</Link></li>
                   <li><Link to="/projects" className='hover:underline'>Projects</Link></li>
-                  <li><Link to="/blog" className='hover:underline'>Blog</Link></li>
-                  <li><Link href="https://drive.google.com/" target='_blank' rel="noreferrer" className='hover:underline'>CV</Link></li>
+                  {/*<li><Link to="/blog" className='hover:underline'>Blog</Link></li>*/}
+                  <li><Link to="/Publication" className='hover:underline'>Publication</Link></li>
+                  <li><Link href="/CV.pdf" target='_blank' rel="noreferrer"
+                            className='hover:underline'>CV</Link></li>
                   <div className="cursor-pointer inset-x-0 inset-y-0" onClick={handleToggleDarkMode}>
-                    {darkMode ? <icons.RiSunFill className="text-slate-800 dark:text-white hover:scale-150 duration-300" size={18}/> : <icons.RiMoonFill className="text-slate-800 dark:text-white hover:scale-150 duration-300" size={18} />}
+                    {darkMode ? <icons.RiSunFill className="text-slate-800 dark:text-white hover:scale-150 duration-300"
+                                                 size={18}/> :
+                        <icons.RiMoonFill className="text-slate-800 dark:text-white hover:scale-150 duration-300"
+                                          size={18}/>}
                   </div>
                 </ul>
               </nav>

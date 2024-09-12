@@ -56,14 +56,14 @@ const ProjectsPage = () => {
           >
         </ProjectEntry>
 
-        <ProjectEntry
-          title={'Project 1'}
-          description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-          tags={['Skill 1', 'Skill 2', 'Skill 3', 'Skill 4', 'Skill 5']}
-          projectLink={'/'}
-          codeLink={'https://github.com/'}
-          >
-        </ProjectEntry>
+        {/*<ProjectEntry*/}
+        {/*  title={'Project 1'}*/}
+        {/*  description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}*/}
+        {/*  tags={['Skill 1', 'Skill 2', 'Skill 3', 'Skill 4', 'Skill 5']}*/}
+        {/*  projectLink={'/'}*/}
+        {/*  codeLink={'https://github.com/'}*/}
+        {/*  >*/}
+        {/*</ProjectEntry>*/}
 
       </div>
     </div>
