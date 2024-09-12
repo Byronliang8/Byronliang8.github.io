@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "gatsby";
 
 export const ExperienceEntry = ({ date, title, company, description, tags }) => {
   return (
@@ -15,6 +16,24 @@ export const ExperienceEntry = ({ date, title, company, description, tags }) => 
             </span>
           ))}
         </div>
+      </div>
+    </div>
+  );
+};
+
+export const NewsEntry = ({ date, description, tags,links }) => {
+  return (
+    <div className="flex mx-auto">
+      <div className="flex place-items-start justify-center text-sm p-4 pt-5 w-1/4">{date}</div>
+      <div className="flex flex-col place-items-start p-4 w-3/4">
+        <p className="mt-1">{description}</p>
+        {/*<div className="mt-2 flex flex-wrap gap-x-4">*/}
+        {/*  {links.map((link, index) => (*/}
+        {/*    <Link aria-label={index} href={link} className="inline-flex items-center gap-1 rounded-full py-1 text-xs font-semibold" target='_blank'>*/}
+        {/*      {tags[index]}*/}
+        {/*    </Link>*/}
+        {/*  ))}*/}
+        {/*</div>*/}
       </div>
     </div>
   );
@@ -40,23 +59,27 @@ export const EducationEntry = ({ date, university, degree, description, tags }) 
   );
 };
 
-export const PublicationEntry = ({ date, title, authors, journal, description, tags, A}) => {
+export const PublicationEntry = ({ date, title, authors, journal, description, tags,links, A}) => {
   return (
-    <div className="flex mx-auto">
-      <div className="flex place-items-start justify-center text-sm p-4 pt-5 w-1/4">{date}</div>
-      <div className="flex flex-col place-items-start p-4 w-3/4">
-        <h2 className="text-xl font-medium">{title}</h2>
-        <p>{authors}</p>
-        <p className='italic'>{journal}<b>{A}</b></p>
-        <p className="mt-1">{description}</p>
-        <div className="mt-2 flex flex-wrap gap-x-4">
-          {tags.map((tag, index) => (
-            <span key={index} className="inline-flex items-center gap-1 rounded-full py-1 text-xs font-semibold">
-              {tag}
-            </span>
-          ))}
-        </div>
+      <div className="flex mx-auto">
+          {/*<div className="flex place-items-start justify-center text-sm p-4 pt-5 w-1/4">{date}</div>*/}
+          <div className="flex place-items-start justify-center text-sm p-4 pt-5 w-1/4"><b>{A}</b></div>
+          <div className="flex flex-col place-items-start p-4 w-3/4">
+              <h2 className="text-xl font-medium">{title}</h2>
+              <p>{authors}</p>
+              <p className='italic'>{journal}, {date}</p>
+              <p className="mt-1">{description}</p>
+              <div className="mt-2 flex flex-wrap gap-x-4">
+                  {links.map((link, index) => (
+                      <Link aria-label={index} href={link}
+                            className="inline-flex items-center gap-1 rounded-full py-1 text-xs font-semibold"
+                            target='_blank'>
+                          {tags[index]}
+                      </Link>
+                  ))}
+              </div>
       </div>
-    </div>
-  );
+</div>
+)
+    ;
 };

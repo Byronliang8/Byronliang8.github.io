@@ -48,11 +48,11 @@ const ProjectsPage = () => {
       <div className='pt-2 pb-4 grid grid-cols-1 xl:grid-cols-2 place-items-start xl:place-items-center gap-8 transition ease-in-out duration-300'> 
       
         <ProjectEntry
-          title={'Project 2'}
-          description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
-          tags={['Skill 1', 'Skill 2', 'Skill 3', 'Skill 4', 'Skill 5']}
-          projectLink={'/'}
-          codeLink={'https://github.com/'}
+          title={'EPSRC DTP'}
+          description={'Uncovering the “Instincts” of Deep Generative Models for Fair and Unbiased Visual Content Creation.'}
+          tags={['PhD Studentship', 'Generative Models', 'Deep Learning', 'Fair To Train']}
+          projectLink={'https://gtr.ukri.org/projects?ref=studentship-2599521'}
+          // codeLink={'https://github.com/'}
           >
         </ProjectEntry>
 
