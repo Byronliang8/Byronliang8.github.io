@@ -28,7 +28,7 @@ module.exports = {
         path: `${__dirname}/Publication`,
       },
     },
-    `gatsby-transformer-remark`,
+    // `gatsby-transformer-remark`,
     "gatsby-plugin-mdx",
   ]
 };
