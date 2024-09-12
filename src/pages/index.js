@@ -189,12 +189,12 @@ const IndexPage = () => {
             />
             <PublicationEntry
               date={'2022'}
-              title={'Exploring and Exploiting Hubness Priors for High-Quality GAN Latent Samplingg'}
+              title={'Exploring and Exploiting Hubness Priors for High-Quality GAN Latent Sampling'}
               A={'ICML (Spotlight)'}
               authors={'Yuanbang Liang*, Jing Wu , Yu-Kun Lai , Yipeng Qin'}
               journal={'The Thirty-ninth  International Conference on Machine Learning'}
-                tags={['PDF','Project Page', 'Github']}
-              links={['https://proceedings.mlr.press/v235/liang24f.html','https://byronliang8.github.io/Hubness_Precision_Recall_page/','https://github.com/Byronliang8/Hubness_Precision_Recall']}
+                tags={['PDF','slideslive', 'Github']}
+              links={['https://proceedings.mlr.press/v235/liang24f.html','https://slideslive.com/38984105','https://github.com/Byronliang8/Hubness_Precision_Recall']}
 
             />
           </section>
