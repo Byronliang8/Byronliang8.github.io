@@ -131,7 +131,7 @@ const IndexPage = () => {
             <div id="education" className='-translate-y-16'/>
             <h1 className='text-2xl py-4 font-medium'>Education</h1>
             <EducationEntry
-              date={'2021 - till now'}
+              date={'2021.10 - till now'}
               university={'Cardiff University'}
               degree={'Doctor of Philosophy'}
               description={'Thesis title: Uncovering the “Instincts” of Deep Generative Models for Fair and Unbiased\n' +
@@ -139,7 +139,7 @@ const IndexPage = () => {
               tags={['Deep Learning', 'Generative Models', 'Hubness Phenomenon']}
             />
             <EducationEntry
-              date={'2020 - 2021'}
+              date={'2020.09 - 2021.09'}
               university={'University of Bristol'}
               degree={'Master of Science'}
               description={'Engineering Mathematics. GPA:3.5/4.0'}
@@ -147,7 +147,7 @@ const IndexPage = () => {
             />
 
             <EducationEntry
-              date={'2018 - 2020'}
+              date={'2018.09 - 2020.07'}
               university={'University of Liverpool'}
               degree={'Bachelor of Science'}
               description={'Computer Science. GPA:3.8/4.0'}
@@ -155,7 +155,7 @@ const IndexPage = () => {
             />
 
             <EducationEntry
-              date={'2016 - 2018'}
+              date={'2016.09 - 2018.07'}
               university={"Xi'an Jiao-Tong Liverpool University (XJTLU)"}
               degree={'Bachelor of Science'}
               description={'Information and Computer Science. GPA:3.8/4.0'}
