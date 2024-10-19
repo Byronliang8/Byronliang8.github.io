@@ -194,7 +194,7 @@ const IndexPage = () => {
               authors={'Yuanbang Liang*, Jing Wu , Yu-Kun Lai , Yipeng Qin'}
               journal={'The Thirty-ninth  International Conference on Machine Learning'}
                 tags={['PDF','slideslive', 'Github']}
-              links={['https://proceedings.mlr.press/v235/liang24f.html','https://slideslive.com/38984105','https://github.com/Byronliang8/Hubness_Precision_Recall']}
+              links={['https://proceedings.mlr.press/v235/liang24f.html','https://slideslive.com/38984105','https://github.com/Byronliang8/HubnessGANSampling']}
 
             />
           </section>
