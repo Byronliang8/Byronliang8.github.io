@@ -142,7 +142,7 @@ const IndexPage = () => {
               date={'2020.09 - 2021.09'}
               university={'University of Bristol'}
               degree={'Master of Science'}
-              description={'Engineering Mathematics. GPA:3.5/4.0'}
+              description={'Engineering Mathematics.'}
               tags={['Partial Differential Equations', 'Applied Statistics', 'Machine Learning and Mathematics']}
             />
 
@@ -150,7 +150,7 @@ const IndexPage = () => {
               date={'2018.09 - 2020.07'}
               university={'University of Liverpool'}
               degree={'Bachelor of Science'}
-              description={'Computer Science. GPA:3.8/4.0'}
+              description={'Computer Science.'}
               tags={['Algorithm and Optimisation', 'Data Science', 'Intelligent Information Systems']}
             />
 
@@ -158,7 +158,7 @@ const IndexPage = () => {
               date={'2016.09 - 2018.07'}
               university={"Xi'an Jiao-Tong Liverpool University (XJTLU)"}
               degree={'Bachelor of Science'}
-              description={'Information and Computer Science. GPA:3.8/4.0'}
+              description={'Information and Computer Science.'}
               tags={['Algorithm and Data Structure', 'Discrete Mathematics and Probabilistic', 'Calculus']}
             />
           </section>
