@@ -90,7 +90,7 @@ const IndexPage = () => {
             <NewsEntry
               date={'2025 June'}
               description={'Our team is organising the 
-                <Link href={projectLink} target="_blank" className="flex flex-row space-x-1 group cursor-pointer place-items-center hover:underline">
+                <Link href="https://cardiffvisualcomputing.github.io/2025/index.html" target="_blank" className="flex flex-row space-x-1 group cursor-pointer place-items-center hover:underline">
               <p>1st Cardiff Image and Vision Computing Workshop</p>
             </Link>.'}
               // tags={['PDF','Project Page', 'Github']}
