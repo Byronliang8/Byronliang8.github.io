@@ -89,7 +89,10 @@ const IndexPage = () => {
             <h1 className='text-2xl py-4 font-medium'>News</h1>
             <NewsEntry
               date={'2025 June'}
-              description={'Our team is organising the 1st Cardiff Image and Vision Computing Workshop.'}
+              description={'Our team is organising the 
+                <Link href={projectLink} target="_blank" className="flex flex-row space-x-1 group cursor-pointer place-items-center hover:underline">
+              <p>1st Cardiff Image and Vision Computing Workshop</p>
+            </Link>.'}
               // tags={['PDF','Project Page', 'Github']}
               // links={['https://proceedings.mlr.press/v235/liang24f.html','https://byronliang8.github.io/Hubness_Precision_Recall_page/','https://github.com/Byronliang8/Hubness_Precision_Recall']}
             />
