@@ -88,6 +88,12 @@ const IndexPage = () => {
             <div id="news" className='-translate-y-16'/>
             <h1 className='text-2xl py-4 font-medium'>News</h1>
             <NewsEntry
+              date={'2025 June'}
+              description={'Our team is organising the 1st Cardiff Image and Vision Computing Workshop.'}
+              // tags={['PDF','Project Page', 'Github']}
+              // links={['https://proceedings.mlr.press/v235/liang24f.html','https://byronliang8.github.io/Hubness_Precision_Recall_page/','https://github.com/Byronliang8/Hubness_Precision_Recall']}
+            />
+            <NewsEntry
               date={'2024 May'}
               description={'Our paper is accepted by ICML as Spotlight.'}
               // tags={['PDF','Project Page', 'Github']}
@@ -96,8 +102,8 @@ const IndexPage = () => {
             <NewsEntry
               date={'2024 Feb'}
               description={'Our paper is accepted by CVPR as Oral.'}
-              tags={['PDF','Youtube', 'Github']}
-              links={['https://openaccess.thecvf.com/content/CVPR2024/html/Liang_Deep_Generative_Model_based_Rate-Distortion_for_Image_Downscaling_Assessment_CVPR_2024_paper.html','https://youtu.be/94xMwRkL7ZI','https://github.com/Byronliang8/IDA-RD']}
+              // tags={['PDF','Youtube', 'Github']}
+              // links={['https://openaccess.thecvf.com/content/CVPR2024/html/Liang_Deep_Generative_Model_based_Rate-Distortion_for_Image_Downscaling_Assessment_CVPR_2024_paper.html','https://youtu.be/94xMwRkL7ZI','https://github.com/Byronliang8/IDA-RD']}
             />
           </section>
           {/* Timeline */}
