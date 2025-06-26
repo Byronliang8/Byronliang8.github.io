@@ -5,8 +5,7 @@ import {ExperienceEntry, EducationEntry, PublicationEntry, NewsEntry} from '../c
 import { Link } from 'gatsby';
 import * as icons from 'react-icons/ri';
 import scrollTo from 'gatsby-plugin-smoothscroll';
-// src/html.js
-import React from "react";
+
 
 const IndexPage = () => {
   return (
