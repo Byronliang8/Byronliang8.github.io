@@ -5,6 +5,8 @@ import {ExperienceEntry, EducationEntry, PublicationEntry, NewsEntry} from '../c
 import { Link } from 'gatsby';
 import * as icons from 'react-icons/ri';
 import scrollTo from 'gatsby-plugin-smoothscroll';
+// src/html.js
+import React from "react";
 
 const IndexPage = () => {
   return (
@@ -229,6 +231,33 @@ const IndexPage = () => {
       </div>
     </div>
   )
+}
+
+export default function HTML(props) {
+  return (
+    <html {...props.htmlAttributes}>
+      <head {...props.headAttributes}>
+        {props.headComponents}
+        {/* ⬇️ Google Analytics 脚本 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BB4NG1TEMJ"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-BB4NG1TEMJ');
+            `,
+          }}
+        />
+      </head>
+      <body {...props.bodyAttributes}>
+        {props.preBodyComponents}
+        <div key={`body`} id="___gatsby" dangerouslySetInnerHTML={{ __html: props.body }} />
+        {props.postBodyComponents}
+      </body>
+    </html>
+  );
 }
 
 export const Head = () => <Seo title="Home" />
