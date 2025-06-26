@@ -7,7 +7,7 @@ export default function HTML(props) {
       <head {...props.headAttributes}>
         {props.headComponents}
         {/* ⬇️ Google Analytics 脚本 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BB4NG1TEMJ"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
