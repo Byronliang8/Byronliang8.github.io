@@ -215,17 +215,6 @@ const IndexPage = () => {
 
             />
           </section>
-
-          <section id="contact">
-            <div id="contact" className='-translate-y-16'/>
-            <h1 className='text-2xl py-4 font-medium'>Contact</h1>
-            <p>
-              If you are interested in discussing, please feel free to reach out ! You can contact me at the following email adress: 
-            </p>    
-            <p>
-              contact Liangy32@cardiff.ac.uk
-            </p>
-          </section>
         </div>
       </div>
     </div>
