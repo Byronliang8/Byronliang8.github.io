@@ -69,16 +69,14 @@ const IndexPage = () => {
           <h1 className="text-3xl font-bold mb-4">Yuanbang Liang</h1>
           <h1 className="font-bold mb-4">PhD candidate in computer science @ Cardiff University</h1>
           <p className="mb-4">
-            I am a PhD candidate in Visual Computing research section, the School of Computer Science and Informatics,
-            Cardiff University. My thesis topic is <i>Uncovering the “Instincts” of Deep Generative Models for Fair and Unbiased
-            Visual Content Creation</i>, supervised by Dr. Yipeng Qin, Prof. Yu-Kun Lai and Dr. Jing Wu and this project
-            is <b>Fully funded by Engineering and Physical Sciences Research Council (EPSRC) DTP studentships</b>.
+            I'm working with Professor Yu-kun Lai at Cardiff University, as a research associate. My research interests are centred around machine learning and its applications in computer vision, computer graphics and content generation. 
+            My PhD research, which is fully funded by the EPSRC, focuses on the hubness phenomenon to uncover the relationship between the hyper-dimensional distribution and the generative models.
           </p>
           <p className="mb-4">
-            My research interests are centred around machine learning and its applications in computer vision, computer graphics
-            and content generation. My current research revolves around the hubness phenomenon to uncover the relationship between
-            the hyper-dimensional distribution and the generative models. With my recent findings, there is a strong correlation
-            between the manifold of the model and the sampling distribution in hyper dimension.
+            My PhD research, which is fully funded by the EPSRC, focuses on the hubness phenomenon to uncover the relationship between the hyper-dimensional distribution and the generative models.
+
+            Now my research is on explainability of generative models to make model-generated results more aligned with objective facts is a core challenge in AI, often referred to as AI alignment.
+            The goal is to ensure that an AI system's behaviour and decisions align with human intent, values, and objective reality.
           </p>
           <p className="mb-4">
             Now I'm Expecting to graduate before 2025 and looking for the research jobs.
