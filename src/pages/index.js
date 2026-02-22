@@ -70,7 +70,6 @@ const IndexPage = () => {
           <h1 className="font-bold mb-4">PhD candidate in computer science @ Cardiff University</h1>
           <p className="mb-4">
             I'm working with Professor Yu-kun Lai at Cardiff University, as a research associate. My research interests are centred around machine learning and its applications in computer vision, computer graphics and content generation. 
-            My PhD research, which is fully funded by the EPSRC, focuses on the hubness phenomenon to uncover the relationship between the hyper-dimensional distribution and the generative models.
           </p>
           <p className="mb-4">
             My PhD research, which is fully funded by the EPSRC, focuses on the hubness phenomenon to uncover the relationship between the hyper-dimensional distribution and the generative models.
